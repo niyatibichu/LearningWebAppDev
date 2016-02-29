@@ -50,3 +50,83 @@ footer .sitemap {
   float: right;
   width: 285px;
 }
+
+/*my styles for faq page*/
+
+.q{
+  font-size: 2em;
+  font-weight: bold;
+  line height: 100;
+  padding: 2%;
+  line-height: 1.8;
+
+}
+.ans{
+  line-height: 1.7;
+  font-style: italic;
+}
+
+.box{
+  border-width:thin;
+  border-style: solid;
+  text-align: center;
+  background-color: teal;
+  display: block;
+  height: 3em;
+  margin-top: 1em;
+  margin-bottom:0.5em;
+}
+.top{
+  font-family: cursive;
+  font-size: 280%;
+  font-weight:bold;
+}
+.botm{
+  font-weight:bolder;
+  font-family: fantasy;
+  font-size: 150%;
+  border-width:thin;
+}
+
+/*Additional styless for the signup page*/
+#form{
+  background-color: wheat;
+  border-width:thin;
+  border-style: solid;
+  line-height: 3.0;
+  width: 100%;
+  text-align: center;
+  font-size: 150%;
+  background-attachment: fixed;
+  display: block;
+}
+#backcolor{
+  width: 100%;
+  background-color: wheat;
+}
+.button {
+    background-color:lightgray;
+    border-style: inset;
+    color: black;
+    padding: 1em;
+    text-align: center;
+    font-size: 0.5em;
+    width: 10em;
+    align-items: center;
+    margin-right: 3em;
+    margin-top: 2em;
+}
+input{
+  font-size: 80%
+}
+
+#user{
+   margin: 1em;
+   height: 1.5em;
+   width: 20em;
+   font-family: serif;
+}
+
+#spec{
+  margin-left: 6.9em;
+}
