@@ -16,7 +16,7 @@ header {
   overflow: auto;
 }
 
-header h1 {
+h1 {
   float: left;
   width: 570px;
 }
@@ -56,9 +56,10 @@ footer .sitemap {
 .q {
   font-size: 2em;
   font-weight: bold;
-  line height: 100;
   padding: 2%;
   line-height: 1.8;
+  display: block;
+  margin-top: 1em;
 }
 
 .ans {
@@ -88,10 +89,12 @@ footer .sitemap {
   font-family: fantasy;
   font-size: 150%;
   border-width:thin;
+  display: block;
+  margin-top: 0.5em;
 }
 
 /*Additional styless for the signup page*/
-#form {
+.form {
   background-color: wheat;
   border-width:thin;
   border-style: solid;
@@ -100,52 +103,58 @@ footer .sitemap {
   text-align: center;
   font-size: 150%;
   background-attachment: fixed;
-  display: block;
+
 }
 
-#backcolor {
-  width: 100%;
+.backcolor {
+  background-size: cover;
   background-color: wheat;
 }
 
 .button {
     background-color:lightgray;
-    border-style: inset;
+    border-width: thin;
     color: black;
-    padding: 1em;
     text-align: center;
     font-size: 0.5em;
     width: 10em;
-    align-items: center;
+    height: 3em;
     margin-right: 3em;
     margin-top: 2em;
+    font-weight: bold;
+    border-radius: 1em;
+
+}
+.button:hover{
+  background-color: limegreen;
 }
 
 input {
   font-size: 80%
 }
 
-#user {
+.user {
+
    margin: 1em;
    height: 1.5em;
    width: 20em;
    font-family: serif;
 }
 
-#email {
+.email {
      margin: 1em;
      height: 1.5em;
      width: 20em;
      font-family: serif;
 }
 
-#pwd{
+.pwd{
      margin: 1em;
      height: 1.5em;
      width: 20em;
      font-family: serif;
   }
-  
-#spec{
+
+.spec{
   margin-left: 6.9em;
 }
